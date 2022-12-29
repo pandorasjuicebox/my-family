@@ -41,6 +41,7 @@ To build <i>My Family</i>:
 
 <div align=center><img width="500" alt="Screen Shot 2022-12-29 at 1 57 49 AM" src="https://user-images.githubusercontent.com/30426576/209921134-01a379ad-1488-4602-af6e-21940d938e6f.png"></div>
 
+
 <div align=center>At the time when this game was created, the latest version of MAMP was 6.6.</div>
 
     5.Click on ‘My Website’.
