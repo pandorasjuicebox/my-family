@@ -3,6 +3,8 @@
 # My Family [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 A narratively incomplete survival horror text-based game.
 
+CW: graphic depictions (and descriptions) of violence, gore, (player) death, physical/emotional abuse, murder, abduction
+
 ## Contents
 * [Introduction](#introduction)
 * [Installation](#running-the-game)
@@ -46,11 +48,20 @@ To build <i>My Family</i>:
     7.Click on my-family.html to launch the game.
     
 ## Gameplay
+
+<i>My Family</i> is a text-based, survival horror adventure game that runs on a web browser. It is built on the Twine game engine which is written HTML5 and Javascript, and uses the SugarCube story format: an alternate Javascript library for Twine. You, the player, assumes the role of a cisgender female who wakes up in an unfamiliar bedroom and greeted by their “mother”. With no recollection of who you are, where you are, and why you’re in this place, something inside you just knows that something is not right.
+
+The game takes inspiration from exploration games like <i>Gone Home</i> and <i>Myst</i>. It also takes inspiration from horror classics that take place in one location such as the films <i>The Shining (1980)</i> and <i>Alien (1979)</i>, where, the most capable (or sanest) character experiences a form of mental “isolation” as they navigate through an environment full of elements that aren’t necessarily normal. In the spirit of these sources, the main character of <i>My Family</i> has to rely on her wits to find her way out of this house. But she (and the player) will quickly learn that to escape is to know your enemy.
+
 To start a new game, click `Play Game`, which will then start the game.
 
 <img width="1638" alt="Screen Shot 2022-12-29 at 2 03 39 AM" src="https://user-images.githubusercontent.com/30426576/209921862-74ab90e8-aad0-4236-a68b-a04f300fd551.png">
 
+As a text-based adventure with survival elements, My Family offers the player several choices that they can choose from when prompted. To keep momentum and engagement, the story — with the exception of the beginning — is delivered in short paragraphs. Choices allude to certain outcomes, and can determine where the narrative goes from that point on. Whenever the player meets someone new, the player’s codex — which can be accessed through a toggle-able menu — unlocks a new entry. Whenever the entry is accessed from the codex, Javascript loads a PHP file containing an AJAX XMLHttpRequest object. It will then send a query based on an id match, and then updates the page with info pulled from the SQL database.
+
 All choices available to the player are marked with ◈ symbol. When a choice is selected, you cannot go back and reverse it. You will find that some sequences cycle, with the options and dialogue repeating. But that is because it’s not much of a game-changing decision. Thus, the player can replay those scenes as much as they want (or as much as game’s narrative flow will allow you to).
+
+On an event-driven sequence in the narrative, the player is presented a number of dialogue and/or actionable options. These choices may be entirely new choices, determined by a previous selection, or simply just flavour text to immerse the player. Once a choice is made, it cannot be undone unless the player starts an entirely new game.
 
 ## GUI
 
